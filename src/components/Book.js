@@ -7,7 +7,7 @@ export default class Book extends Component {
         <section className="section-book">
         <div className="row">
           <div className="book">
-          <form action="#" className="book__form">
+          <form action="" className="book__form">
            <div className="u-center-text u-margin-bottom-meduim">
                 <h2 className="heading-secondary">
                  start Booking now
@@ -21,7 +21,7 @@ export default class Book extends Component {
               <input type="email" id="email" placeholder="Email adresse" className="form__input"/>
               <label htmlFor="email" className="form__label">Email Adresse</label>
             </div>
-            <div className="form__group">
+            <div className="form__group u-margin-bottom-meduim">
              <div className="form__radio-group">
               <input type="radio" id="small" className="form__radio-input" name="size"/>
               <label htmlFor="small" className="form__radio-label">
@@ -34,7 +34,11 @@ export default class Book extends Component {
               <span className="form__radio-button"></span>
               large tour group</label>
              </div>
+            
             </div>
+            <div className="form__group">
+               <button className="btn btn--green">Next Step &rarr;</button>
+             </div>
           </form>
           </div>
         </div>
