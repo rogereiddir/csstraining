@@ -1,9 +1,9 @@
-import React, { Component } from 'react'
+import React, { Component,Fragment } from 'react'
 
 export default class Header extends Component {
   render() {
     return (
-      <div>
+      <Fragment>
        <header className="header">
             <div className="header__logo-box">
                 <img src="../../dist/img/logo-white.png" alt="Logo" className="header__logo" />
@@ -86,7 +86,7 @@ export default class Header extends Component {
 
         </section> */}
         
-      </div>
+      </Fragment>
     )
   }
 }
