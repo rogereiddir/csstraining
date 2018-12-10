@@ -5,6 +5,7 @@ import Tours  from 'Tours'
 import Stories from 'Stories';
 import Book from 'Book';
 import Footer from 'Footer';
+import Popup from 'Popup';
 
 export default class Main extends Component {
   render() {
@@ -17,6 +18,7 @@ export default class Main extends Component {
             <Stories/>
             <Book/>
             <Footer/>
+            <Popup/>
         </main>
       </div>
     )
