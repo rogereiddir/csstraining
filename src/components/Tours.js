@@ -4,7 +4,7 @@ export default class Tours extends Component {
   render() {
     return (
       <div>
-        <section className="section-tours">
+        <section className="section-tours" id="section-tours">
              <div className="u-center-text u-margin-bottom-big">
                 <h2 className="heading-secondary">
                   Most Popular tours
@@ -42,7 +42,7 @@ export default class Tours extends Component {
                           <p className="card__price-value">$254</p>
                          
                         </div>
-                        <a href="#" className="btn btn--white">Book Now</a>
+                        <a href="#popup" className="btn btn--white">Book Now</a>
                         </div>
                       </div>
                     </div>
@@ -78,7 +78,7 @@ export default class Tours extends Component {
                           <p className="card__price-value">$254</p>
                          
                         </div>
-                        <a href="#" className="btn btn--white">Book Now</a>
+                        <a href="#popup" className="btn btn--white">Book Now</a>
                         </div>
                       </div>
                     </div>
@@ -114,7 +114,7 @@ export default class Tours extends Component {
                           <p className="card__price-value">$254</p>
                           
                         </div>
-                        <a href="#" className="btn btn--white">Book Now</a>
+                        <a href="#popup" className="btn btn--white">Book Now</a>
                         </div>
                         </div>
                     </div>

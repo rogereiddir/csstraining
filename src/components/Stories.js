@@ -1,9 +1,9 @@
-import React, { Component } from 'react'
+import React, { Component, Fragment } from 'react'
 
 export default class Stories extends Component {
   render() {
     return (
-     <div>
+  <Fragment>
     <section className="section-stories">
     <div className="bg-video">
      <video className="bg-video__content" autoPlay muted loop>
@@ -49,7 +49,7 @@ export default class Stories extends Component {
                <a href="#" className="btn btn--text">read  all stories</a>
             </div>   
       </section>
-     </div>
+     </Fragment>
     )
   }
 }
