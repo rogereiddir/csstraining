@@ -6,6 +6,7 @@ position: relative;
        box-shadow: 0 1.5rem 4rem rgba($color-black,0.4);
        border-radius: 2rem;
        position: absolute;
+       transition: all .3s;
        z-index: 10;
         &--p1{
             left:0;
