@@ -19,7 +19,7 @@ function validAnagram(word1,word2){
   list2.sort(sortNumber);
 
   for (let i = 0; i < list1.length; i++){
-    if(list1[i]!=list2[i]){
+    if(list1[i] != list2[i]){
         return false;
     }
   }

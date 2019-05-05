@@ -1,9 +1,9 @@
-import React, { Component } from 'react'
+import React, { Component,Fragment } from 'react'
 
 export default class Features extends Component {
   render() {
     return (
-      <div>
+      <Fragment>
         <section className="section-features">
          
           <div className="row">
@@ -45,7 +45,7 @@ export default class Features extends Component {
               </div>
           </div>
         </section>
-      </div>
+      </Fragment>
     )
   }
 }

@@ -1,9 +1,9 @@
-import React, { Component } from 'react'
+import React, { Component,Fragment } from 'react'
 
 export default class About extends Component {
   render() {
     return (
-      <div>
+      <Fragment>
         <section className="section-about">
               <div className="u-center-text u-margin-bottom-big">
                 <h2 className="heading-secondary">
@@ -29,15 +29,22 @@ export default class About extends Component {
                 </div>
                 <div className="col-1-2">
                   <div className="composition">
-                    <img src="/dist/img/nat-1-large.jpg" alt="" className="composition__photo composition__photo--p1"/>
+
+                    <img className="composition__photo composition__photo--p1" alt="" srcSet="/dist/img/nat-1.jpg 300w, /dist/img/nat-1-large.jpg 1000w" sizes="(max-width:900px) 20vw,(max-width:600px) 30vw, 300px" src="/dist/img/nat-1-large.jpg" />
+
+                    <img className="composition__photo composition__photo--p2" alt="" srcSet="/dist/img/nat-2.jpg 300w, /dist/img/nat-2-large.jpg 1000w" sizes="(max-width:900px) 20vw,(max-width:600px) 30vw, 300px" src="/dist/img/nat-2-large.jpg" />
+
+                    <img className="composition__photo composition__photo--p3" alt="" srcSet="/dist/img/nat-3.jpg 300w, /dist/img/nat-3-large.jpg 1000w" sizes="(max-width:900px) 20vw,(max-width:600px) 30vw, 300px" src="/dist/img/nat-3-large.jpg" />
+
+                    {/* {<img src="/dist/img/nat-1-large.jpg" alt="" className="composition__photo composition__photo--p1"/>
                     <img src="/dist/img/nat-2-large.jpg" alt="" className="composition__photo composition__photo--p2"/>
-                    <img src="/dist/img/nat-3-large.jpg" alt="" className="composition__photo composition__photo--p3"/>
+                    <img src="/dist/img/nat-3-large.jpg" alt="" className="composition__photo composition__photo--p3"/>} */}
                   </div> 
                 </div>
               </div>
 
             </section>
-      </div>
+      </Fragment>
     )
   }
 }
